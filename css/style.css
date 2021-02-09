@@ -36,11 +36,11 @@ header p{
 #grid-container{
     width: 460px;
     height: 460px;
-    padding: 5px;
+    padding: 20px;
     position: relative;
     border-radius: 10px;
     margin:10px auto;
-    background-color: #bbada0;
+    background-color:#DDA0DD;
 }
 
 .grid-cell{
