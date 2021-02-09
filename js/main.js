@@ -88,7 +88,7 @@ function updateBoardView(){
                     'top': getTop(i,j),
                     'background-image': getNumberBackgroundColor(board[i][j])
                  //   'color': getNumberColor(board[i][j])
-                });//.text(board[i][j]);
+                }).text(board[i][j]);
             }
 
             hasCollide[i][j] = false;
@@ -120,7 +120,7 @@ function generateOneNumber(){
     }
 
     //���һ������
-    var randNumber = Math.random() < 0.5?2:4;
+    var randNumber = Math.random() < 0.7?2:4;
 
     //������λ����ʾ�������
     board[randx][randy]=randNumber;
@@ -228,7 +228,7 @@ function isgameover(){
 }
 
 function gameover(){
-    alert('Game over!');
+    alert('养成失败!');
 }
 
 function moveLeft(){
