@@ -39,8 +39,8 @@ header p{
     padding: 10px;
     position: relative;
     border-radius: 10px;
-    margin:10px auto;
-    background-color:#DA70D6;
+    margin:2px auto;
+    background-color:#BA55D3;
 }
 
 .grid-cell{
@@ -49,9 +49,7 @@ header p{
     height: 100px;
     background-color: #DDA0DD;
     border-radius: 2px;
-    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
-    -moz-background-size:100% 100%;
-    background-size:100% 100%;
+    background-size:80%;
 }
 
 .number-cell{
