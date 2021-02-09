@@ -14,7 +14,7 @@ function showNumberWithAnimation(x,y,num){
           'top': getLeft(x,y),
           'background-image': getNumberBackgroundColor(num)
 
-    }).text(num);
+    });//.text(num);
 
     numberCell.animate({
         width: cellSideLength,
