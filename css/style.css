@@ -49,7 +49,7 @@ header p{
     height: 100px;
     background-color: #D8BFD8;
     border-radius: 2px;
-    background-size:100PX;
+    background-size:100%;
 }
 
 .number-cell{
