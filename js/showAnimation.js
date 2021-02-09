@@ -10,9 +10,9 @@ function showNumberWithAnimation(x,y,num){
        // 'color': getNumberColor(num)
           'width': 100%,
                     'height': auto,
-                    'left': getPosTop(i,j),
-                    'top': getPosLeft(i,j),
-                    'background-image': getNumberBackgroundColor(board[i][j])
+                    'left': getTop(x,y),
+                    'top': getLeft(x,y),
+                    'background-image': getNumberBackgroundColor(num)
 
     }).text(num);
 
