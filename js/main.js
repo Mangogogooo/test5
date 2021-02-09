@@ -82,11 +82,12 @@ function updateBoardView(){
             }
             else{
                 numberCell.css({
-                    'width': 100px,
-                    'height': 100px,
+                    'width': cellSideLength,
+                    'height': cellSideLength,
                     'left': getLeft(i,j),
                     'top': getTop(i,j),
-                    'background-image': getNumberBackgroundColor(board[i][j])
+                    'background-image': getNumberBackgroundColor(board[i][j]),
+                    'background-size': cover
                  //   'color': getNumberColor(board[i][j])
                 });//.text(board[i][j]);
             }
