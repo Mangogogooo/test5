@@ -82,13 +82,13 @@ function updateBoardView(){
             }
             else{
                 numberCell.css({
-                    'width': 100%,
-                    'height': auto,
+                    'width': 100px,
+                    'height': 100px,
                     'left': getLeft(i,j),
                     'top': getTop(i,j),
                     'background-image': getNumberBackgroundColor(board[i][j])
                  //   'color': getNumberColor(board[i][j])
-                }).text(board[i][j]);
+                });//.text(board[i][j]);
             }
 
             hasCollide[i][j] = false;
