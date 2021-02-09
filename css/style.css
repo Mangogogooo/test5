@@ -18,7 +18,7 @@ header #newGame{
     margin:10px auto;
     width: 100px;
     padding:10px 10px;
-    background-color: #DA70D6;
+    background-color: #DDA0DD;
     color:white;
     border-radius:10px;
     text-decoration: none;
@@ -40,16 +40,16 @@ header p{
     position: relative;
     border-radius: 10px;
     margin:2px auto;
-    background-color:#BA55D3;
+    background-color:#DDA0DD;
 }
 
 .grid-cell{
     position: absolute;
     width: 100px;
     height: 100px;
-    background-color: #DDA0DD;
+    background-color: #D8BFD8;
     border-radius: 2px;
-    background-size:80%;
+    background-size:80PX;
 }
 
 .number-cell{
