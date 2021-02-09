@@ -86,8 +86,8 @@ function updateBoardView(){
                     'height': cellSideLength,
                     'left': getLeft(i,j),
                     'top': getTop(i,j),
-                    'background-image': getNumberBackgroundColor(board[i][j]),
-                    'background-size': cellSideLength cellSideLength
+                    'background-image': getNumberBackgroundColor(board[i][j])
+                  //  'background-size': cellSideLength cellSideLength
                  //   'color': getNumberColor(board[i][j])
                 });//.text(board[i][j]);
             }
