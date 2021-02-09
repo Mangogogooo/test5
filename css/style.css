@@ -48,9 +48,9 @@ header p{
    
     background-color: #D8BFD8;
     border-radius: 2px;
-    background-size:100%;
-    -webkit-background-size: 100%;
-    -o-background-size:100%
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size:cover
 }
 
 .number-cell{
