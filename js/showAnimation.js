@@ -8,11 +8,11 @@ function showNumberWithAnimation(x,y,num){
     numberCell.css({
        // 'background-color': getNumberBackgroundColor(num)
        // 'color': getNumberColor(num)
-          'width': 100%,
-                    'height': auto,
-                    'left': getTop(x,y),
-                    'top': getLeft(x,y),
-                    'background-image': getNumberBackgroundColor(num)
+          'width': cellSideLength,
+          'height': cellSideLength,
+          'left': getTop(x,y),
+          'top': getLeft(x,y),
+          'background-image': getNumberBackgroundColor(num)
 
     }).text(num);
 
