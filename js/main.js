@@ -82,8 +82,8 @@ function updateBoardView(){
             }
             else{
                 numberCell.css({
-                    'width': cellSideLength,
-                    'height': cellSideLength,
+                    'width': 100%,
+                    'height': auto,
                     'left': getLeft(i,j),
                     'top': getTop(i,j),
                     'background-image': getNumberBackgroundColor(board[i][j])
