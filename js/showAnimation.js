@@ -6,9 +6,15 @@ function showNumberWithAnimation(x,y,num){
     var numberCell = $("#number-cell-"+x+"-"+y);
 
     numberCell.css({
-        'background-color': getNumberBackgroundColor(num)
+       // 'background-color': getNumberBackgroundColor(num)
        // 'color': getNumberColor(num)
-    });//.text(num);
+          'width': 100%,
+                    'height': auto,
+                    'left': getPosTop(i,j),
+                    'top': getPosLeft(i,j),
+                    'background-image': getNumberBackgroundColor(board[i][j])
+
+    }).text(num);
 
     numberCell.animate({
         width: cellSideLength,
