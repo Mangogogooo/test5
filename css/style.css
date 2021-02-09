@@ -9,8 +9,8 @@ header{
 }
 
 header h1{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
+    color:#DDA0DD;
 }
 
 header #newGame{
@@ -36,7 +36,7 @@ header p{
 #grid-container{
     width: 460px;
     height: 460px;
-    padding: 20px;
+    padding: 5px;
     position: relative;
     border-radius: 10px;
     margin:10px auto;
